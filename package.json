@@ -3,7 +3,6 @@
   "version": "5.0.0",
   "description": "authenticate socket.io connections using JWTs",
   "main": "lib/index.js",
-  "private": true,
   "keywords": [
     "socket",
     "socket.io",
