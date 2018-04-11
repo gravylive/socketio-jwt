@@ -93,7 +93,7 @@ __Server side__:
 When you sign the token with an expiration time:
 
 ```javascript
-var token = jwt.sign(user_profile, jwt_secret, {expiresInMinutes: 60});
+var token = jwt.sign(user_profile, jwt_secret, { expiresIn: 60 });
 ```
 
 Your client-side code should handle it as below.
