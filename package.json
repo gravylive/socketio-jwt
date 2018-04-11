@@ -1,8 +1,9 @@
 {
-  "name": "socketio-jwt",
-  "version": "4.5.0",
+  "name": "@gravy/socketio-jwt",
+  "version": "5.0.0",
   "description": "authenticate socket.io connections using JWTs",
   "main": "lib/index.js",
+  "private": true,
   "keywords": [
     "socket",
     "socket.io",
@@ -13,9 +14,18 @@
     "email": "jfromaniello@gmail.com",
     "url": "http://joseoncode.com"
   },
+  "contributors": [
+    {
+      "name": "Jacob Tschirhart",
+      "email": "jacob@gravylive.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/auth0/socketio-jwt.git"
+    "url": "https://github.com/gravylive/socketio-jwt.git"
+  },
+  "publishConfig":{
+    "registry":"https://gravylive.jfrog.io/gravylive/api/npm/npm/"
   },
   "scripts": {
     "test": "mocha"
