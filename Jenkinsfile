@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'npm test'
+        sh 'npm i && npm test'
       }
     }
     stage('Publish') {
