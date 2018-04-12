@@ -1,6 +1,6 @@
 {
   "name": "@gravy/socketio-jwt",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "authenticate socket.io connections using JWTs",
   "main": "lib/index.js",
   "keywords": [
